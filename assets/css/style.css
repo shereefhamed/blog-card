@@ -43,7 +43,7 @@ main {
 }
 
 .card-body {
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 
 .blog-card-img img {
@@ -88,4 +88,10 @@ main {
 .author img {
     margin-right: 4px;
     width: 2rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blog-card {
+    transition: none;
+  }
 }
